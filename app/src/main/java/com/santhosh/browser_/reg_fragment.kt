@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
+import android.webkit.WebViewClient
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -36,6 +39,26 @@ class reg_fragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_reg_fragment, container, false)
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val myWebView2: WebView = view.findViewById(R.id.web_view2)
+        myWebView2.webViewClient = object : WebViewClient(){
+            override fun shouldOverrideUrlLoading(
+                view: WebView?,
+                request: WebResourceRequest?
+            ): Boolean {
+                return super.shouldOverrideUrlLoading(view, request)
+            }
+
+        }
+        myWebView2.loadUrl("http://google.com")
+        myWebView2.settings.javaScriptEnabled = true
+        myWebView2.settings.allowContentAccess = true
+        myWebView2.settings.domStorageEnabled = true
+        myWebView2.settings.useWideViewPort = true
+    }
+
 
     companion object {
         /**
