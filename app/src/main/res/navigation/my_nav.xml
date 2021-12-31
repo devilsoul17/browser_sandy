@@ -12,17 +12,31 @@
         tools:layout="@layout/fragment_blank" />
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.santhosh.browser_.secondFragment"
+        android:name="com.santhosh.browser_.SecondFragment"
         android:label="HOME"
         tools:layout="@layout/fragment_second" />
     <fragment
         android:id="@+id/thirdFragment"
         android:name="com.santhosh.browser_.thirdFragment"
         android:label="SETTINGS"
-        tools:layout="@layout/fragment_third" />
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment_to_history2"
+            app:destination="@id/history2" />
+    </fragment>
     <fragment
         android:id="@+id/reg_fragment"
         android:name="com.santhosh.browser_.reg_fragment"
         android:label="INCOGNITO TAB"
         tools:layout="@layout/fragment_reg_fragment" />
+    <fragment
+        android:id="@+id/history2"
+        android:name="com.santhosh.browser_.history"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/bookmarks2"
+        android:name="com.santhosh.browser_.bookmarks"
+        android:label="fragment_bookmarks"
+        tools:layout="@layout/fragment_bookmarks" />
 </navigation>

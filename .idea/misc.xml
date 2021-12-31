@@ -4,14 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/arrow_back_24.xml" value="0.2375" />
+        <entry key="app/src/main/res/drawable/gradient_2_backgroung.xml" value="0.1984375" />
+        <entry key="app/src/main/res/drawable/gradient_3.xml" value="0.1984375" />
+        <entry key="app/src/main/res/drawable/gradion_background.xml" value="0.1984375" />
         <entry key="app/src/main/res/drawable/home_24.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/incognito.xml" value="0.1984375" />
         <entry key="app/src/main/res/drawable/profile.xml" value="0.2203125" />
         <entry key="app/src/main/res/drawable/settings_24.xml" value="0.2203125" />
+        <entry key="app/src/main/res/layout/about_a.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/bookmarks.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/contactus.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/fragment_bookmarks.xml" value="0.18229166666666666" />
+        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.19" />
         <entry key="app/src/main/res/layout/fragment_reg_fragment.xml" value="0.16" />
-        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.19999999999999998" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_third.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/history_h.xml" value="0.18229166666666666" />
         <entry key="app/src/main/res/layout/register_fragment.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
